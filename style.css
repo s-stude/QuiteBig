@@ -1,0 +1,460 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+code,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea
+{
+    margin: 0;
+    padding: 0;
+}
+html { font-size: 14px }
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,
+img { border: 0 }
+caption,
+cite,
+code,
+dfn,
+th,
+var
+{
+    font-style: normal;
+    font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+abbr,
+acronym { border: 0 }
+body
+{
+    background: #ffffff;
+    color: #202020;
+    font: 1em/1.5 Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    margin: 0 0 0 0;
+}
+h1,
+h3 { font-family: Futura, 'Century Gothic', AppleGothic, sans-serif }
+pre,
+code { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif }
+a:link,
+a:visited
+{
+    color: #49D28D;
+    text-decoration: none;
+}
+a:hover,
+a:active { color: #3FB67A }
+#header
+{
+    color: #999999;
+    position: relative;
+    margin: -49 auto;
+    padding-top: 25px;
+    width: 875px;
+}
+#header h1
+{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 85px;
+    line-height: 90%;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    letter-spacing: -1px;
+}
+#header h1 a:link,
+#header h1 a:visited
+{
+    color: #000000;
+    display: block;
+}
+#header h1 a:hover,
+#header h1 a:active { color: #3FB67A }
+#description
+{
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: autopx;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+#header form { margin-bottom: 20px }
+#header form input { width: 630px }
+#header ul { margin: 0 -0.25em 1.5em }
+#header li
+{
+    list-style: none;
+    text-transform: lowercase;
+}
+#header li a
+{
+    background: #ffffff;
+    display: block;
+    padding: 0 0.25em;
+    text-decoration: none;
+}
+#header li a:hover { background: none }
+#container
+{
+    background-color: ;
+    margin: 30px auto;
+    padding-top: 5px;
+    width: 875px;
+}
+#container .box img { max-width: 100% }
+#posts
+{
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+#posts .post
+{
+    list-style: none;
+    padding-bottom: 10px;
+    max-width: 875px;
+    clear: both;
+}
+#posts .content
+{
+    color: #202020;
+    padding: 0;
+    margin-left: 0px;
+}
+#footer
+{
+    margin: 0 auto;
+    max-width: 875px;
+    padding-bottom: 30px;
+}
+#pagination p
+{
+    font-size: 14px;
+    min-width: 150px;
+    line-height: autopx;
+    margin: 0 0 10px;
+    white-space: nowrap;
+}
+#pagination p.back
+{
+    display: inline;
+    text-align: right;
+    float: right;
+    margin-left: 20px;
+}
+#pagination p.forward
+{
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+#pagination a { font-style: italic }
+#pagination .page
+{
+    text-align: center;
+    font: 12px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+#credits
+{
+    clear: both;
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
+    padding: 1.5em 0;
+}
+#footer a:hover,
+#footer a:active { text-decoration: none }
+p { margin-bottom: 25px }
+form .submit
+{
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+.meta
+{
+    float: left;
+    clear: left;
+    : ;
+    font-size: 14px;
+    text-align: left;
+    line-height: 10px;
+}
+.meta h2
+{
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.meta h2 a
+{
+    text-decoration: none;
+    display: block;
+    padding: 0px 0px;
+}
+.meta h2 a:hover { background: none }
+.meta p
+{
+    color: #999999;
+    font-style: italic;
+    margin: 0 0 0 1em;
+    text-indent: -0.75em;
+    text-transform: lowercase;
+}
+p.meta
+{
+    color: #999999;
+    font-style: italic;
+    margin: 0;
+    width: 150px;
+    text-indent: -0.75em;
+    text-transform: lowercase;
+}
+.meta a
+{
+    font-style: normal;
+    white-space: nowrap;
+}
+.meta .plays
+{
+    font-weight: bold;
+    font-style: normal;
+}
+h3
+{
+    font-size: 20px;
+    line-height: autopx;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.content a { border-bottom: 1px solid #EEEEEE }
+.content a:hover { border-bottom-width: 2px }
+.content .photo a { border: none !important }
+.content ul,
+.content ol { margin: 20px }
+.content ul li { list-style: square }
+blockquote
+{
+    margin: 0 20px 20px;
+    font-style: italic;
+}
+blockquote i,
+blockquote em,
+blockquote [lang="ja"] { font-style: normal }
+pre,
+code
+{
+    font-size: 10px;
+    line-height: 12px;
+}
+pre
+{
+    background: #e1e1e1;
+    margin: 15px;
+    padding: 10px;
+    overflow-x: auto;
+}
+pre code { display: block }
+pre i,
+code i
+{
+    font-style: normal;
+    color: #999999;
+}
+ins
+{
+    text-decoration: none;
+    font-style: italic;
+}
+blockquote ins,
+em ins,
+ins em { font-style: normal }
+abbr,
+acronym,
+.caps
+{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+abbr,
+acronym { text-transform: uppercase }
+.caps { text-transform: uppercase }
+.text { margin-bottom: 20px }
+.caption { margin-bottom: 20px }
+.vidcaption { margin-top: 120px }
+.post img,
+.post object,
+.post embed { max-width: 100% }
+.link-post h3
+{
+    padding: 0;
+    margin-bottom: 15px;
+}
+.photo-post .photo
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.video-post .video
+{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.quote-post .quote { font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif }
+.quote-post .source,
+.cite
+{
+    float: right;
+    margin: 0 40px 20px 50px;
+    text-indent: -1.5em;
+}
+.quote-post .source a:first-child,
+.cite { letter-spacing: 0 }
+.short-quote .quote,
+.medium-quote .quote
+{
+    font-size: 20px;
+    line-height: autopx;
+    margin: 20px 40px 20px 0;
+}
+.long-quote .quote { margin: 20px }
+.audio-post .audio
+{
+    height: 27px;
+    background: #000000;
+    display: block;
+    width: 500px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+.audiobox { width: 500px }
+.audio-post .audio_player { width: auto }
+.chat-post ol
+{
+    list-style: none;
+    margin: 15px 0;
+}
+.chat-post li
+{
+    margin-left: 1.5em;
+    text-indent: -1.5em;
+}
+.chat-post .label
+{
+    font-weight: bold;
+    padding-right: 0.125em;
+}
+.chat-post .speaker { font-style: italic }
+.chat-post .speaker2 .label,
+.chat-post .speaker4 .label,
+.chat-post .speaker6 .label,
+.chat-post .speaker8 .label { color: #999999 }
+.chat-post .speaker3 .label,
+.chat-post .speaker4 .label,
+.chat-post .speaker7 .label,
+.chat-post .speaker8 .label
+{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.chat-post .speaker5 .label,
+.chat-post .speaker6 .label,
+.chat-post .speaker7 .label,
+.chat-post .speaker8 .label { font-family: Futura, 'Century Gothic', AppleGothic, sans-serif }
+.day .month { text-transform: uppercase }
+.content.text-post img { max-width: 100% }
+.multi
+{
+    margin-bottom: 30px;
+    margin-right: 15px;
+    : ;
+}
+.video embed,
+.video object,
+.video iframe
+{
+    width: 875px;
+    height: 500px;
+    margin-bottom: -100px;
+}
+#comment
+{
+    font-size: 10px;
+    text-align: left;
+    line-height: 18px;
+    margin: 0px 0px 0px 0px;
+}
+#comment a
+{
+    text-decoration: none;
+    color: ;
+}
+#comment a:hover
+{
+    text-decoration: none;
+    color: #3FB67A;
+}
+#dsq-content
+{
+    background: rgba(0, 0, 0, .30);
+    background: url('     ');
+    padding: 5px 20px 20px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+a.install
+{
+    width: 96px;
+    height: 20px;
+    background: url(http://static.tumblr.com/thpaaos/dHHkt0jor/install_theme.png);
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 3px;
+}
+a { outline: none }
